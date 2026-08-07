@@ -6,7 +6,7 @@ class ViaCepService:
 
     def buscar_endereco(self, cep: str) -> Endereco:
 
-        viacep_url = f"https://viacep.com.br/ws/{cep}/json/"
+        viacep_url = f"VIACEP_BASE_URL/{cep}/json/"
 
         response = requests.get(viacep_url, timeout=5)
 
