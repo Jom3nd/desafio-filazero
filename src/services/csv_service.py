@@ -1,5 +1,5 @@
 import csv
-from pathlib import Path
+
 def read(path: str) -> list[dict]:
 
     unidades = []
