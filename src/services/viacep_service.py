@@ -1,5 +1,6 @@
 import requests
 from models.endereco import Endereco
+from exceptions.api_exception import ApiException
 
 class ViaCepService:
 
@@ -15,7 +16,7 @@ class ViaCepService:
         data = response.json()
 
         if data.get("erro"):
-            raise ValueError(f"CEP '{cep}' não encontrado.")
+            raise ApiException(f"CEP '{cep}' não encontrado.")
 
         return Endereco(
             logradouro=data["logradouro"],
