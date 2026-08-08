@@ -1,7 +1,7 @@
 import json
 from dataclasses import asdict
-from config.settings import OUTPUT_DIR
-from services.provisionamento_service import ProvisionamentoService
+from src.config.settings import OUTPUT_DIR
+from src.services.provisionamento_service import ProvisionamentoService
 
 
 def main():
