@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 class Endereco:
     logradouro: str
     bairro: str
-    localidade: str
+    cidade: str
     uf: str
     cep: str
 
