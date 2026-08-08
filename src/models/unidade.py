@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from models.endereco import Endereco
+from src.models.endereco import Endereco
 
 @dataclass(slots=True)
 class Unidade:

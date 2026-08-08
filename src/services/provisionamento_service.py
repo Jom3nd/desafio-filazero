@@ -1,8 +1,8 @@
-from models.unidade import Unidade
-from services.csv_service import read
-from services.viacep_service import ViaCepService
-from exceptions.api_exception import ApiException
-from config.settings import logger
+from src.models.unidade import Unidade
+from src.services.csv_service import read
+from src.services.viacep_service import ViaCepService
+from src.exceptions.api_exception import ApiException
+from src.config.settings import logger
 import re
 import unicodedata
 

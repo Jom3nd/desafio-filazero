@@ -1,7 +1,7 @@
 import requests
-from models.endereco import Endereco
-from exceptions.api_exception import ApiException
-from config.settings import VIACEP_BASE_URL
+from src.models.endereco import Endereco
+from src.exceptions.api_exception import ApiException
+from src.config.settings import VIACEP_BASE_URL
 
 class ViaCepService:
 
