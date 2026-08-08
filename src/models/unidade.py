@@ -1,8 +1,8 @@
 from dataclasses import dataclass
-from models.endereco import Endereco
+from src.models.endereco import Endereco
 
-@dataclass
-class Unidade(slots=True):
+@dataclass(slots=True)
+class Unidade:
     nome: str
     endereco: Endereco
     servicos: list[str]

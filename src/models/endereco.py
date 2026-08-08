@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 
-@dataclass
-class Endereco(slots=True):
+@dataclass(slots=True)
+class Endereco:
     logradouro: str
     bairro: str
     localidade: str
