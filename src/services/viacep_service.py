@@ -26,7 +26,7 @@ class ViaCepService:
         return Endereco(    
             logradouro=data["logradouro"],
             bairro=data["bairro"],
-            localidade=data["localidade"],
+            cidade=data["localidade"],
             uf=data["uf"],
             cep=data["cep"]
         )
