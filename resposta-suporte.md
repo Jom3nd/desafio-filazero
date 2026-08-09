@@ -4,7 +4,7 @@ Entendo a urgência da situação, principalmente considerando que a clínica es
 
 Vou ajudar a investigar o motivo pelo qual o painel de senhas deixou de atualizar. Como você já reiniciou o computador e o problema continua, vou realizar algumas verificações para identificar se a causa está relacionada à conexão, ao próprio painel ou ao sistema.
 
-Enquanto realizamos essas verificações, peço que, se possível, mantenha o painel aberto para que possamos acompanhar o comportamento durante a análise.
+Enquanto realizamos as verificações, se possível, mantenha o painel aberto para que possamos observar o comportamento apresentado.
 
 Assim que identificarmos a causa, seguiremos com a correção ou, caso seja necessário, encaminharemos o problema para o time responsável.
 
@@ -20,11 +20,9 @@ João Guilherme
 
 Essa verificação é importante porque o painel precisa se comunicar com o sistema para receber as atualizações da fila de senhas.
 
-
 ## 2. O painel continua apresentando o mesmo comportamento quando acessado em outro dispositivo ou navegador?
 
-Essa verificação ajuda a identificar se o problema está restrito ao computador/navegador da recepção ou se está relacionado ao sistema como um todo.
-
+Essa verificação ajuda a identificar se o problema está restrito ao computador ou navegador da recepção ou se está relacionado ao sistema como um todo.
 
 ## 3. O sistema de senhas continua atualizando normalmente em outros dispositivos da clínica?
 
