@@ -2,9 +2,13 @@ from src.models.unidade import Unidade
 from src.services.csv_service import read
 from src.services.viacep_service import ViaCepService
 from src.exceptions.api_exception import ApiException
-from src.config.settings import logger
+
+import logging
+logger = logging.getLogger(__name__)
+
 import re
 import unicodedata
+
 
 class ProvisionamentoService:
 
