@@ -1,24 +1,7 @@
-import logging
-import os
-
-#Configuração da automação
+#Configuração da API ViaCEP
 VIACEP_BASE_URL = "https://viacep.com.br/ws"
 
 #Configuração dos diretórios
 OUTPUT_DIR = "output"
 LOG_DIR = "logs"
-
-os.makedirs(OUTPUT_DIR,exist_ok=True)
-os.makedirs(LOG_DIR, exist_ok=True)
-
-
-#Configuração dos logs
-
-logging.basicConfig(
-    filename=f"{LOG_DIR}/app.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    encoding="utf-8"
-)
-
-logger = logging.getLogger(__name__)
+LOG_FILE = f"{LOG_DIR}/app.log"
