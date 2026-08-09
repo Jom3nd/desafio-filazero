@@ -1,11 +1,26 @@
 import json
+import logging
+import os
+from src.config.settings import *
 from dataclasses import asdict
 from src.config.settings import OUTPUT_DIR
 from src.services.provisionamento_service import ProvisionamentoService
 
+def configurar_aplicacao():
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(LOG_DIR, exist_ok=True)
+
+    logging.basicConfig(
+        filename=LOG_FILE,
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+        encoding="utf-8"
+    )
 
 def main():
 
+    configurar_aplicacao()
+    
     resultado = ProvisionamentoService().processar("data/unidades.csv")
 
     unidades_json = [
